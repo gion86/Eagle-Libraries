@@ -1,6 +1,126 @@
 ﻿EAGLE Library ChangeLog
 =======================
 
+2018-04-30: 
+  Added for Eagle 7.0+:
+  
+  Adafruit:
+  * adafruit.lbr;
+
+  Arduino schematich:
+  * libSmartPrj.lbr: 
+
+  Bluettoth:
+  * Bluetooth HC-05.lbr 
+  * CC254X_Texas.lbr
+  * HM-10_BLE.lbr
+  * ST-CC254X.lbr 
+
+  Gm: 
+  * gm-caps-ceramic.lbr
+  * gm-caps-electro-pol.lbr
+  * gm-caps-film-box.lbr
+  * gm-caps-film-chicklet.lbr
+  * gm-caps-mica.lbr
+  * gm-caps-tant.lbr
+  * gm-diodes.lbr
+  * gm-ics.lbr
+  * gm-inductors.lbr
+  * gm-jacks.lbr
+  * gm-mics.lbr
+  * gm-pots.lbr
+  * gm-regulators.lbr
+  * gm-resistors.lbr
+  * gm-supply.lbr
+  * gm-switches.lbr
+  * gm-trans.lbr
+  * gm-voltage.lbr
+  * gm-xfms.lbr
+ 
+  Maxim:
+  * Maxim_RTC.lbr
+ 
+  Microchip:
+  * Microchip_LDO_regulator.lbr
+  * Microchip_sw_regulator.lbr
+
+  Murata:
+  * murata-inductors.lbr
+ 
+  SeeedStudio:
+  * Seeed-Capacitor.lbr
+  * Seeed-Connector.lbr
+  * Seeed-Crystal Oscillator.lbr
+  * Seeed-Diode.lbr
+  * Seeed-Display.lbr
+  * Seeed-Fuse.lbr
+  * Seeed-IC.lbr
+  * Seeed-Inductor.lbr
+  * Seeed-LED.lbr
+  * Seeed-OPL-2017-01-Antenna-akita.lbr
+  * Seeed-OPL-2017-01-Capacitor-akita.lbr
+  * Seeed-OPL-2017-01-connector-edward.lbr
+  * Seeed-OPL-2017-01-Crystal-Akita.lbr
+  * Seeed-OPL-2017-01-Diode-james.lbr
+  * Seeed-OPL-2017-01-display-edward.lbr
+  * Seeed-OPL-2017-01-Fuse-Akita.lbr
+  * Seeed-OPL-2017-01-IC-Akita.lbr
+  * Seeed-OPL-2017-01-Inductor-Akita.lbr
+  * Seeed-OPL-2017-01-Sensor-camilo.lbr
+  * Seeed-OPL-2017-01-Switch-camilo.lbr
+  * Seeed-Relay.lbr
+  * Seeed-Resistor.lbr
+  * Seeed-Sensor.lbr
+  * Seeed-Switch.lbr
+  * Seeed-Transistor.lbr
+
+  Sparkfun:
+  * LilyPad-Wearables.lbr
+  * SparkFun-Aesthetics.lbr
+  * SparkFun-Batteries.lbr
+  * SparkFun-Boards.lbr
+  * SparkFun-Capacitors.lbr
+  * SparkFun-Clocks.lbr
+  * SparkFun-Coils.lbr
+  * SparkFun-Connectors.lbr
+  * SparkFun-DiscreteSemi.lbr
+  * SparkFun-Displays.lbr
+  * SparkFun-Electromechanical.lbr
+  * SparkFun-Fuses.lbr
+  * SparkFun-GPS.lbr
+  * SparkFun-Hardware.lbr
+  * SparkFun-IC-Amplifiers.lbr
+  * SparkFun-IC-Comms.lbr
+  * SparkFun-IC-Conversion.lbr
+  * SparkFun-IC-Logic.lbr
+  * SparkFun-IC-Memory.lbr
+  * SparkFun-IC-Microcontroller.lbr
+  * SparkFun-IC-Power.lbr
+  * SparkFun-IC-Special-Function.lbr
+  * SparkFun-Jumpers.lbr
+  * SparkFun-LED.lbr
+  * SparkFun-PowerSymbols.lbr
+  * SparkFun-Resistors.lbr
+  * SparkFun-Retired.lbr
+  * SparkFun-RF.lbr
+  * SparkFun-Sensors.lbr
+  * SparkFun-Switches.lbr
+  * User-Submitted.lbr
+ 
+  ST Micro:
+  * ST Microelctronics_By_element14_Batch_1.lbr
+  * st-microelectronics-2.lbr
+  * st-microelectronics.lbr
+ 
+  Custom and the rest:
+  * tag-connect.lbr
+  * TC2050.lbr
+  * CuSTOM_GB.lbr
+  * e14_Rpi2_RevA.lbr
+  * Wuerth_Elektronik_eiCan_09_Wire_to_Board_Connectors.lbr
+  * xp_power.lbr
+
+
 2009-04-27
   * con-coax.lbr: Eagle 5.5.0
     changed description (Distributor deleted) in:

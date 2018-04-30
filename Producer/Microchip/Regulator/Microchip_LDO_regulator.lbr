@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOT-223">
+<smd name="1" x="-2.3" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
+<smd name="2" x="0" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
+<smd name="3" x="2.3" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
+<smd name="TAB" x="0" y="2.9" dx="3.25" dy="2.15" layer="1"/>
+<wire x1="-3.15" y1="-1.65" x2="-3.15" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="1.65" x2="3.15" y2="1.65" width="0.127" layer="21"/>
+<wire x1="3.15" y1="1.65" x2="3.15" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-1.65" x2="-3.15" y2="-1.65" width="0.127" layer="21"/>
+<rectangle x1="-2.72" y1="-3.45" x2="-1.88" y2="-1.65" layer="51"/>
+<rectangle x1="-0.42" y1="-3.45" x2="0.42" y2="-1.65" layer="51"/>
+<rectangle x1="1.88" y1="-3.45" x2="2.72" y2="-1.65" layer="51"/>
+<rectangle x1="-1.55" y1="1.65" x2="1.55" y2="3.45" layer="51"/>
+<text x="-3.6" y="-2.7" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="5" y="-3" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MIC2920A">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="INPUT" x="-17.78" y="5.08" visible="pin" length="middle" direction="in"/>
+<pin name="OUTPUT" x="17.78" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-15.24" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<text x="-12.7" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="11.176" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MIC2920A">
+<description>&lt;h1&gt;Fixed Voltage Regulator&lt;/h1&gt;
+&lt;h2&gt;400mA Low-Dropout Voltage Regulator&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/mic2920.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The MIC2920A family are “bulletproof,” efficient voltage regulators with very low dropout voltage (typically 40mV at light loads and 370mV at 250mA), and very low quiescent current (140µA typical). The quiescent current of the MIC2920A increases only slightly in dropout, prolonging battery life. Key MIC2920A features include protection against reversed battery, fold-back current limiting, and automotive “load dump”protection (60V positive transient).
+&lt;/p&gt;
+&lt;p&gt;
+The MIC2920 is available in several configurations. The MIC2920A-x.x devices are three pin fixed voltage regulators available in 3.3V, 4.85V, 5V, and 12V outputs. The MIC29201 is a fixed regulator offering a logic compatible ON/OFF (shutdown) input and an error flag output. This flag may also be used as a power-on reset signal. A logic-compatible shutdown input is provided on the adjustable MIC29202 which allows the regulator to be switched on and off. The MIC29204 8-pin SOIC adjustable regulator includes both shutdown and error flag pins and may be pin-strapped for 5V output or programmed from 1.24V to 26V using two external resistors.
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;High output voltage accuracy&lt;/li&gt;
+&lt;li&gt;Guaranteed 400mA output&lt;/li&gt;
+&lt;li&gt;Low quiescent current&lt;/li&gt;
+&lt;li&gt;Low dropout voltage&lt;/li&gt;
+&lt;li&gt;Extremely tight load and line regulation&lt;/li&gt;
+&lt;li&gt;Very low temperature coefficient&lt;/li&gt;
+&lt;li&gt;Current and thermal limiting&lt;/li&gt;
+&lt;li&gt;Input withstands –20V reverse battery and 60V positive transients&lt;/li&gt;
+&lt;li&gt;Error flag warns of output dropout&lt;/li&gt;
+&lt;li&gt;Logic-controlled electronic shutdown&lt;/li&gt;
+&lt;li&gt;Output programmable from 1.24V to 26V (MIC29202/MIC29204)&lt;/li&gt;
+&lt;li&gt;Available in TO-220-3, TO-220-5, and surface-mount TO-263-5, SOT-223, and SO-8 packages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Battery-powered equipment&lt;/li&gt;
+&lt;li&gt;Cellular telephones&lt;/li&gt;
+&lt;li&gt;Laptop, notebook, and palmtop computers&lt;/li&gt;
+&lt;li&gt;PCMCIA V&lt;sub&gt;CC&lt;/sub&gt; and V&lt;sub&gt;PP&lt;/sub&gt; regulation/switching&lt;/li&gt;
+&lt;li&gt;Bar code scanners&lt;/li&gt;
+&lt;li&gt;Automotive electronics&lt;/li&gt;
+&lt;li&gt;SMPS post-regulators&lt;/li&gt;
+&lt;li&gt;Voltage reference&lt;/li&gt;
+&lt;li&gt;High-efficiency linear power supplies&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MIC2920A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 TAB"/>
+<connect gate="G$1" pin="INPUT" pad="1"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
