@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -476,6 +476,26 @@
 <technology name="">
 <attribute name="MPN" value="1N5819" constant="no"/>
 <attribute name="VALUE" value="40V-1A"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMD-DIODE-SWITCH-1N4148(LL-34)" prefix="D" uservalue="yes">
+<description>304040016</description>
+<gates>
+<gate name="G$1" symbol="DIODE*-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LL-34">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="1N4148" constant="no"/>
+<attribute name="VALUE" value="1N4148" constant="no"/>
 </technology>
 </technologies>
 </device>
