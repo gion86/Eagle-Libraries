@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="5" display="yes" altdistance="2.5" altunitdist="mil" altunit="mm"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="21" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -114,15 +114,32 @@
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
 <layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
 <layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -330,6 +347,21 @@
 <wire x1="0" y1="1.016" x2="1.778" y2="1.9685" width="0.127" layer="21"/>
 <wire x1="0" y1="1.651" x2="1.27" y2="2.3495" width="0.127" layer="21"/>
 <wire x1="1.75" y1="0" x2="2.413" y2="0.381" width="0.127" layer="21"/>
+</package>
+<package name="C1210">
+<smd name="1" x="-1.5" y="0" dx="3.1" dy="1.55" layer="1" rot="R90"/>
+<smd name="2" x="1.5" y="0" dx="3.1" dy="1.55" layer="1" rot="R90"/>
+<wire x1="2.55" y1="1.546" x2="2.55" y2="-1.546" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-1.546" x2="2.296" y2="-1.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.296" y1="-1.8" x2="-2.296" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-2.296" y1="-1.8" x2="-2.55" y2="-1.546" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.55" y1="-1.546" x2="-2.55" y2="1.546" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="1.546" x2="-2.296" y2="1.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.296" y1="1.8" x2="2.296" y2="1.8" width="0.127" layer="21"/>
+<wire x1="2.296" y1="1.8" x2="2.55" y2="1.546" width="0.127" layer="21" curve="-90"/>
+<rectangle x1="-2.54" y1="-1.778" x2="2.54" y2="1.778" layer="39"/>
+<text x="-2.54" y="2.286" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="0" y="0" size="0.635" layer="27" ratio="10" align="center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1304,6 +1336,10 @@
 </gates>
 <devices>
 <device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="MPN" value="CC0603KRX7R9BB472"/>
@@ -1929,6 +1965,40 @@
 <attribute name="MPN" value="KS 100uF/16V" constant="no"/>
 <attribute name="VALUE" value="100uf"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CERAMIC-22UF-16V-10%-X7R(1206)" prefix="C" uservalue="yes">
+<description>302010182</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CERAMIC-10UF-16V-(-20%～+80%)-Y5V(1210)" prefix="C" uservalue="yes">
+<description>302010190</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
